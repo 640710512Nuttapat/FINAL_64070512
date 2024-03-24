@@ -10,7 +10,7 @@ class MyTextField extends StatelessWidget {
     required this.controller,
     this.hintText,
     this.keyboardType = TextInputType.multiline,
-  })
+  });
 
   @override
   Widget build(BuildContext context) {
